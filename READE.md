@@ -42,7 +42,7 @@ You can train our proposed **Prior-Knowledge-Based Differentiable Top-$k$ Gene S
 python ./script/main.py --module "AGL+DkGSB" --dataset 'TENX152'
 ```
 
-## 🔥 Comparative Experiments
+## 🔥 Training the comparative methods
 If you would like to run the comparative experiments, please execute the following commands:
 
 1. **AGL** — Training with **all auxiliary genes**
@@ -53,6 +53,26 @@ python ./script/main.py --module "AGL" --dataset 'TENX152'
 ```
 python ./script/main.py --module "PGL" --dataset 'TENX152'
 ```
+
+## 📊 Evaluation of Each Method
+You can evaluate the following three approaches:
+
+1. **DkGSB (Prior-Knowledge-Based Differentiable Top-$k$ Gene Selection via Bi-level Optimization)**  
+```
+python ./script/main.py --module "AGL+DkGSB" --dataset 'TENX152' --is_evaluation 1
+```
+
+   
+2. **AGL (All Auxiliary Genes)**  
+```
+python ./script/main.py --module "AGL" --dataset 'TENX152' --is_evaluation 1
+```
+
+3. **Primary-only**  
+```
+python ./script/main.py --module "PGL" --dataset 'TENX152' --is_evaluation 1
+```
+
 
 ## 🔍 Citation
 If you find this repository helpful, please consider citing:
