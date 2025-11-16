@@ -1,4 +1,4 @@
-# Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection
+# Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection 🧬
 "Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection" has been accepted for publication in the **AAAI2026** 🎉🎉!
 Shikui Kaito, Kazuya Nishimura, Shinnosuke Matsuo, Yasuhiro Kojima, Ryoma Bise
 
@@ -53,12 +53,12 @@ python ./script/main.py --module "AGL" --dataset 'TENX152'
 python ./script/main.py --module "PGL" --dataset 'TENX152'
 ```
 
-## Citation
+## 🔍 Citation
 If you find this repository helpful, please consider citing:
 ```
 Comming soon !
 ```
 
-# Author
+# ✏️ Author
 @ Shiku Kaito  
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
